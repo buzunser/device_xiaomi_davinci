@@ -43,6 +43,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sm6150-udfps \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
+    
+# Fast charge    
+PRODUCT_PACKAGES += \
+    fastcharge
+    
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Fstab
 PRODUCT_COPY_FILES += \
