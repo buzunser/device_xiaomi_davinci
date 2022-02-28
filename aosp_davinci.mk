@@ -14,6 +14,11 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+# QuickTap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := aosp_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
@@ -21,3 +26,4 @@ PRODUCT_MODEL := Mi 9T
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_CHARACTERISTICS := nosdcard
