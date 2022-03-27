@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Battery light -->
-    <string name="battery_light_title">Включите свет во время зарядки</string>
+    <string name="battery_light_title">Включите индикатор во время зарядки</string>
 
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Быстрая зарядка</string>
