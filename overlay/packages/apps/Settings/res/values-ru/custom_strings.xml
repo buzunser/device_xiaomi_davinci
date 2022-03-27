@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Battery light -->
+    <string name="battery_light_title">Включите свет во время зарядки</string>
+
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Быстрая зарядка</string>
+    <string name="fast_charging_summary">Отключите, чтобы уменьшить выделение тепла устройством во время зарядки или продлить срок службы аккумулятора.</string>
+
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Разрешить разблокировку лица на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включен</string>
+    <string name="face_unlock_method_swipe">При свайпе на экране блокировки</string>
+</resources>
