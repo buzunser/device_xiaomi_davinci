@@ -25,6 +25,9 @@ ODM_MANIFEST_SKUS += davinci
 ODM_MANIFEST_DAVINCI_FILES := \
     $(COMMON_PATH)/configs/hidl/manifest-qva.xml \
     $(DEVICE_PATH)/configs/hidl/manifest-nfc.xml
+    
+# Assert
+TARGET_OTA_ASSERT_DEVICE := davinci,davinciin
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_davinci
