@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
     
 # Fast charge    
 PRODUCT_PACKAGES += \
-    fastcharge
+    vendor.lineage.fastcharge@1.0-service.samsung
     
 # Remove packages
 PRODUCT_PACKAGES += \
