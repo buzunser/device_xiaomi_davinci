@@ -1,5 +1,6 @@
 on init
-    chown system radio /sys/class/power_supply/battery/slowly_charging
+    chown system system /sys/class/power_supply/battery/slowly_charging
+    chmod 0660 /sys/class/power_supply/battery/slowly_charging
 
 service vendor.fastcharge-hal-1-0 /vendor/bin/hw/vendor.lineage.fastcharge@1.0-service.samsung
     class hal
