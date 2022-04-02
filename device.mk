@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sm6150-udfps \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
     
-# Fast charge    
+# Fastcharge    
 PRODUCT_PACKAGES += \
     vendor.lineage.fastcharge@1.0-service.samsung
     
