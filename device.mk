@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    libudfpshandler \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
     
 # Fastcharge    
