@@ -32,9 +32,6 @@ TARGET_OTA_ASSERT_DEVICE := davinci,davinciin
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_davinci
 TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
 
-# Kernel
-TARGET_KERNEL_CONFIG := davinci_defconfig
-
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_USES_METADATA_PARTITION := true
