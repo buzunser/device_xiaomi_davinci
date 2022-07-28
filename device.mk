@@ -104,6 +104,10 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+    
+# Boot animation
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/bootanimation.zip:product/media/bootanimation.zip
 
 # WiFi
 PRODUCT_PACKAGES += \
