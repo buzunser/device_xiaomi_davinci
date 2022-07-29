@@ -60,7 +60,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Compression
-#PRODUCT_FS_COMPRESSION := 1
+PRODUCT_FS_COMPRESSION := 1
 
 # Screen density
 TARGET_SCREEN_DENSITY := 420
